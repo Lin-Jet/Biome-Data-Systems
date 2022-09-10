@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.1f07b3bc.js",
+    "static/js/787.464741e4.chunk.js": "/static/js/787.464741e4.chunk.js",
+    "static/media/BiomeDataSystemsLogo.png": "/static/media/BiomeDataSystemsLogo.64c4e0235a693a8451d1.png",
+    "static/media/logoMobile.svg": "/static/media/logoMobile.1b06bd40a23a85255ef130704cef0f33.svg",
+    "static/media/logo.svg": "/static/media/logo.7f799dddcb0ddf62597927844794dbb2.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.1f07b3bc.js.map": "/static/js/main.1f07b3bc.js.map",
+    "787.464741e4.chunk.js.map": "/static/js/787.464741e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1f07b3bc.js"
+  ]
+}
