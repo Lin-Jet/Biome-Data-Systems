@@ -1,19 +1,15 @@
-import React from 'react'
-import {BottomNavigation, BottomNavigationAction} from '@material-ui/core'
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube';
+import React from "react";
+import Navbar from "./Navbar";
 
-function Footer() {
-    return (
-        <BottomNavigation >
-          <BottomNavigationAction color="red" label="Facebook" value="recents" icon={<FacebookIcon  style={{fill: "#3b5998"}}/>} />
-          <BottomNavigationAction label="Twitter" value="favorites" icon={<TwitterIcon  style={{fill: "#1DA1F2"}}/>} />
-          <BottomNavigationAction label="Instagram" value="nearby" icon={<InstagramIcon  style={{fill: " #C13584"}}/>} />
-          <BottomNavigationAction label="YouTube" value="folder" icon={<YouTubeIcon  style={{fill: "#c4302b"}}/>} />
-        </BottomNavigation>
-)
+export default function Footer(){
+    return(
+        <div className="footer">
+            <ul className="footer-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://www.linkedin.com/company/biome-data-systems/" target="_blank">LinkedIn</a></li>
+                <li><a href="tel:951-450-1399">Call Us</a></li>
+                <li><a href = "mailto: advancement@biomedatasystems.com">Email Us</a></li>
+            </ul>
+        </div>
+    )
 }
-
-export default Footer
